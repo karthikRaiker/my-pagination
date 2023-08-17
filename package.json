@@ -4,8 +4,8 @@
   "description": "pagination demonstration",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel ./Public/index.html",
+    "build": "parcel build ./Public/index.html"
   },
   "author": "karthik raikar",
   "license": "ISC",
