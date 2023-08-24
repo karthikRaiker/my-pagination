@@ -13,6 +13,7 @@
   grid-gap: 1rem;
   margin: 20px;
   background-color: burlywood;
+  cursor: pointer;
 }
 .ProductItem--single > img {
   width: 100%;
@@ -30,4 +31,89 @@
   background-color: blue;
   border-radius: 3px;
   cursor: pointer;
+}
+.Modal-container {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.5s;
+  overflow: auto;
+  transition: all 0.3s linear;
+}
+.Modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 4px;
+  max-width: 54vw;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+.Modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d5d5d5;
+  text-transform: uppercase;
+}
+.Modal-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.Modal-header > span {
+  font-size: 1.5rem;
+  color: bold;
+  cursor: pointer;
+}
+.Modal-body {
+  display: flex;
+  flex-direction: column;
+  max-width: 60vw;
+  max-height: 66%;
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d5d5d5;
+}
+.Modal-body > img {
+  width: 100%;
+  max-height: 80%;
+}
+.Modal-body > label {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin: 0.5rem 0;
+  text-transform: uppercase;
+}
+.Modal-description {
+  font-size: 1rem;
+  word-break: break-all;
+}
+.Modal-footer {
+  display: flex;
+}
+.Modal-footer > button {
+  padding: 0.9rem 1rem;
+  background-color: #0674e2;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  color: white;
+  text-transform: uppercase;
+}
+.Modal-footer > button:hover {
+  background-color: #123456;
 }

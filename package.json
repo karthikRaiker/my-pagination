@@ -13,9 +13,11 @@
     "axios": "^1.4.0",
     "parcel": "^2.9.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1"
   },
   "devDependencies": {
+    "buffer": "^6.0.3",
     "process": "^0.11.10"
   }
 }
